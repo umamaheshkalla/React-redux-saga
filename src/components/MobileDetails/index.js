@@ -35,7 +35,8 @@ function MobileDetails({
   return (
     <div>
       <h1>
-        Number of Mobiles {noOfMobiles} and Users {users.length} and Details
+        Number of Mobiles {noOfMobiles} and Users {users.length} and Details of
+        user
         {user.name}
       </h1>
       <button style={styles.btn} onClick={() => buyMobile()}>
